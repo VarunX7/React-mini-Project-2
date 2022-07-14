@@ -1,11 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 body{
@@ -79,7 +74,6 @@ body{
   display: flex;
   align-items: center;
   padding: 0;
-  /* border: 2px solid red; */
   margin: 0px;
   margin-bottom: 7px;
 }
@@ -121,7 +115,6 @@ body{
   margin: 0px;
   margin-bottom: 14px;
   color: #2B283A;
-  /* border: 2px solid red; */
 }
 
 .text{
@@ -131,9 +124,6 @@ body{
   font-size: 10.24px;
   line-height: 150%;
   margin: 0;
-  /* or 15px */
-  /* border: 2px solid red; */
-
   color: #2B283A;
 }
 
@@ -143,7 +133,6 @@ body{
   font-weight: 700;
   font-size: 10.24px;
   line-height: 12px;
-  /* border: 2px solid red; */
   color: #2B283A;
   margin: 0px;
   margin-bottom: 9px;
