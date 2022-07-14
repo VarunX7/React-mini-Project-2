@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  background: #E5E5E5;
+  align-items: center;
+  padding: 50px;
+}
+.main-container{
+  width: 550px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.head-container{
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
+}
+
+.head-container img{
+  width: 24px;
+  height: 24px;
+}
+
+.head-container h4{
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  margin: 7px;
+  color: white;
+}
+
+.card-holder{
+  padding: 36px 40px;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.card-container{
+  display: flex;
+  align-items: center;  
+  
+}
+
+.main-img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.firstline{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  /* border: 2px solid red; */
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+
+.firstline span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+  margin-left: 4px;
+  color: #2B283A;
+}
+
+.firstline img{
+  width: 7px;
+  height: 9.55px;
+}
+
+.firstline a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #918E9B;
+}
+
+.title{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0px;
+  margin-bottom: 14px;
+  color: #2B283A;
+  /* border: 2px solid red; */
+}
+
+.text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 0;
+  /* or 15px */
+  /* border: 2px solid red; */
+
+  color: #2B283A;
+}
+
+.date{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* border: 2px solid red; */
+  color: #2B283A;
+  margin: 0px;
+  margin-bottom: 9px;
+}
+
